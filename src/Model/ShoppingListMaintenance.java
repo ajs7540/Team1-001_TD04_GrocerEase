@@ -74,9 +74,10 @@ public class ShoppingListMaintenance {
 
     ShoppingList newShoppingList = new ShoppingList();
 
-    List allLines = null;
+
+    List<String> allLines = null;
     try {
-      allLines = Files.readAllLines(Paths.get(fullPath));
+      allLines = Files.readAllLines(filePath);
     } catch (IOException e) {
       e.printStackTrace();
     }
