@@ -2,6 +2,8 @@ package Model;
 
 import java.util.*;
 
+import static java.util.Comparator.comparing;
+
 public class ShoppingList {
   private String name;
 
@@ -60,6 +62,7 @@ public class ShoppingList {
   }
 
   public void sortList(ShoppingListSort sortMethod) {
+    // TODO 01 - Put this in when Phil publishes it
 
     Comparator<Product> comparator = null;
 
