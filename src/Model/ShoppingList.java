@@ -1,8 +1,6 @@
 package Model;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class ShoppingList {
   private String name;
@@ -62,7 +60,26 @@ public class ShoppingList {
   }
 
   public void sortList(ShoppingListSort sortMethod) {
-    // TODO 01 Put this in when Phil publishes it
+
+    Comparator<Product> comparator = null;
+
+    switch (sortMethod.getSortMethod()) {
+      case NAME:
+        comparator = comparing(Product::getName, String.CASE_INSENSITIVE_ORDER);
+        break;
+      case CREATION_DATE:
+        comparator = comparing(Product::getCreated);
+        break;
+    }
+
+    if (sortMethod.getSortDirection() == ShoppingListSort.ProductSortDirection.DESCENDING) {
+      comparator = comparator.reversed();
+    }
+
+    Collections.sort(this.products, comparator);
+
+
+
   }
 
   @Override
