@@ -16,6 +16,8 @@ public class CartProducts {
       if (product == null) {
         break;
       }
+      product.setInCart(true); //puts product in cart when user selects a product in list
+      //(Amal Sabirov | email:ajs7540@psu.edu | github: ajs7540)
       // TODO 04 - Add the missing line in Controller.CartProducts.cartProducts
     }
 
