@@ -10,6 +10,9 @@ public class ImportExport {
   public static final void exportList(ShoppingList shoppingList) {
     // TODO 10 - Write Controller.ImportExport
     // Aaron Coccagna Github: newpolygons
+    String listName = shoppingList.getName();
+    String fullPath = IOHelper.readNonBlankStringFromKeyboard(listName + "(will write to 'ImportExport' folder in project): ");
+    ShoppingListMaintenance.exportList(shoppingList, fullPath);
   }
 
   public static final ShoppingList importList() {
