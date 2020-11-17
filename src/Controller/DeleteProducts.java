@@ -7,7 +7,7 @@ import org.apache.log4j.*;
 
 public class DeleteProducts {
   // TODO 09 - DeleteProducts: Make a debug log entry for each item deleted (See GrocerEase.log sample in assignment)
-  // Aaron Coccagna Github : newpolygons
+  // Aaron Coccagna | email: azc5793@psu.edu | Github : newpolygons
   private static final Logger logger = LogManager.getRootLogger();
 
 
@@ -19,6 +19,7 @@ public class DeleteProducts {
         break;
       }
       shoppingList.removeProduct(product);
+
     }
   }
 }
