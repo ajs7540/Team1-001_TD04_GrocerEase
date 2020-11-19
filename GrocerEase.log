@@ -57,3 +57,28 @@
 2020-11-18 22:09:25 DEBUG root:29 - Program started
 2020-11-18 22:10:48 DEBUG root:29 - Program started
 2020-11-18 22:12:04 DEBUG root:29 - Program started
+2020-11-19 08:28:00 DEBUG root:29 - Program started
+2020-11-19 08:29:01 DEBUG root:20 - Added item Milkto listCamping
+2020-11-19 09:04:59 DEBUG root:29 - Program started
+2020-11-19 09:23:42 DEBUG root:29 - Program started
+2020-11-19 09:24:10 DEBUG root:13 - Invalid input: lol
+2020-11-19 09:24:24 DEBUG root:20 - Added item lolto listCamping
+2020-11-19 09:39:36 DEBUG root:29 - Program started
+2020-11-19 09:39:47 DEBUG root:21 - Added item nullto listCamping
+2020-11-19 09:40:01 DEBUG root:21 - Added item nullto listCamping
+2020-11-19 09:40:08 DEBUG root:21 - Added item nullto listCamping
+2020-11-19 09:41:38 DEBUG root:29 - Program started
+2020-11-19 09:41:49 DEBUG root:21 - Added item nullto listCamping
+2020-11-19 09:41:55 DEBUG root:21 - Added item chickento listCamping
+2020-11-19 09:55:15 DEBUG root:29 - Program started
+2020-11-19 09:55:29 DEBUG root:21 - Added item nullto listThanksgiving
+2020-11-19 09:56:03 DEBUG root:21 - Added item chickento listThanksgiving
+2020-11-19 09:58:19 DEBUG root:29 - Program started
+2020-11-19 09:58:27 DEBUG root:22 - Added item nullto listThanksgiving
+2020-11-19 09:59:03 DEBUG root:29 - Program started
+2020-11-19 09:59:13 DEBUG root:22 - Added item nullto listThanksgiving
+2020-11-19 09:59:23 DEBUG root:22 - Added item nullto listThanksgiving
+2020-11-19 10:02:17 DEBUG root:29 - Program started
+2020-11-19 10:02:26 DEBUG root:22 - Added item nullto listThanksgiving
+2020-11-19 10:04:11 DEBUG root:29 - Program started
+2020-11-19 10:04:26 DEBUG root:22 - Added item nullto listThanksgiving
