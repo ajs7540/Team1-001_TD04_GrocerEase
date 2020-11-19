@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 
 public class AddProducts {
   // TODO 08 - AddProducts: Make a debug log entry for each item added (See GrocerEase.log sample in assignment)
-
+  // Rickey Patel | email: rpp5069@psu.edu | Github : rpp5069
 
   private static final Logger logger = LogManager.getRootLogger();
 
