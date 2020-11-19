@@ -22,7 +22,7 @@ public class AddProducts {
       logger.log(Level.DEBUG, "Added item " + product.getName() + "to list" + shoppingList.getName());
       EditProducts.editOneProduct(product);
       shoppingList.addProduct(product);
-      if (IOHelper.boolUserInputYorN("Another Product?")){ }
+      if (IOHelper.readYNBool("Another Product?")){ }
       else{
         productAdded = false;
       }
