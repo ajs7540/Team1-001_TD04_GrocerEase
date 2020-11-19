@@ -43,6 +43,8 @@ public class ShoppingListMaintenance {
 
   public static boolean exportList(ShoppingList shoppingList, String fullPath) {
     // TODO 02 - Put this in when Phil publishes it
+
+    //(Amal Sabirov | email:ajs7540@psu.edu | github: ajs7540)
     try {
       FileWriter outFile = new FileWriter(fullPath);
       outFile.write(shoppingList.getName() + NL);
@@ -71,6 +73,7 @@ public class ShoppingListMaintenance {
 
   public static ShoppingList importList(Path filePath) {
     // TODO 03 - Put this in when Phil publishes it
+    //(Amal Sabirov | email:ajs7540@psu.edu | github: ajs7540)
 
     ShoppingList newShoppingList = new ShoppingList();
 

@@ -64,6 +64,8 @@ public class ShoppingList {
   public void sortList(ShoppingListSort sortMethod) {
     // TODO 01 - Put this in when Phil publishes it
 
+    //(Amal Sabirov | email:ajs7540@psu.edu | github: ajs7540)
+
     Comparator<Product> comparator = null;
 
     switch (sortMethod.getSortMethod()) {
