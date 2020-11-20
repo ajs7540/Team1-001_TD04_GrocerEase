@@ -12,7 +12,7 @@ public class ImportExport {
     // Aaron Coccagna Github: newpolygons
     String listName = shoppingList.getName();
     String fullPath = IOHelper.readNonBlankStringFromKeyboard("File Name (will write to 'ImportExport' folder in project): ");
-    ShoppingListMaintenance.exportList(shoppingList, fullPath);
+    ShoppingListMaintenance.exportList(shoppingList, baseFolder +"/" + fullPath);
   }
 
   public static final ShoppingList importList() {
