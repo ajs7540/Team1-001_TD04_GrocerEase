@@ -14,7 +14,7 @@ public class DeleteProducts {
   public static void deleteProducts(ShoppingList shoppingList) {
     while (true) {
       Product product = ChooseProduct.chooseProduct(shoppingList, p -> p.getName());
-      logger.log(Level.DEBUG, "Deleted item " + product.getName() + "from list" + shoppingList.getName());
+      logger.debug(String.format("Deleted item '%s' from list '%s'", product.getName(), shoppingList.getName()));
       if (product == null) {
         break;
       }

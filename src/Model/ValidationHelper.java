@@ -44,7 +44,7 @@ public class ValidationHelper {
    * Checks that given string is "Y" or "N"
    *
    * @param str string to be checked
-   * @return true if string is "Y" or "N"
+   * @retuxrn true if string is "Y" or "N"
    */
   public static boolean isValidYorN(String str) {
     return ("N".equals(str) || "Y".equals(str));

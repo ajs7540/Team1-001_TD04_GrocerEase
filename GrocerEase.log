@@ -82,5 +82,36 @@
 2020-11-19 10:02:26 DEBUG root:22 - Added item nullto listThanksgiving
 2020-11-19 10:04:11 DEBUG root:29 - Program started
 2020-11-19 10:04:26 DEBUG root:22 - Added item nullto listThanksgiving
+2020-11-19 10:13:25 DEBUG root:29 - Program started
+2020-11-19 10:13:33 DEBUG root:22 - Added item nullto listCamping
+2020-11-19 10:14:10 DEBUG root:22 - Added item nullto listCamping
+2020-11-19 20:09:35 DEBUG root:29 - Program started
+2020-11-19 20:10:50 DEBUG root:29 - Program started
+2020-11-19 20:17:50 DEBUG root:13 - Invalid input: 3.50asdf
+2020-11-19 20:18:19 DEBUG root:13 - Invalid input: asdf
+2020-11-19 20:18:45 DEBUG root:13 - Invalid input: 
+2020-11-19 20:19:43 DEBUG root:22 - Added item nullto listCamping
+2020-11-19 20:19:52 DEBUG root:22 - Added item nullto listCamping
+2020-11-19 20:22:14 DEBUG root:22 - Added item nullto listCamping
+2020-11-19 20:22:25 DEBUG root:17 - Deleted item nullfrom listCamping
+2020-11-19 20:23:31 DEBUG root:29 - Program started
+2020-11-19 20:24:03 DEBUG root:29 - Program started
 2020-11-19 23:29:19 DEBUG root:29 - Program started
 2020-11-19 23:29:43 DEBUG root:82 - Program ended
+2020-12-02 18:15:20 DEBUG root:29 - Program started
+2020-12-02 19:04:03 DEBUG root:29 - Program started
+2020-12-08 17:20:14 DEBUG root:29 - Program started
+2020-12-08 17:21:06 DEBUG root:29 - Program started
+2020-12-08 17:21:16 DEBUG root:22 - Added item nullto listCamping
+2020-12-08 17:23:24 DEBUG root:29 - Program started
+2020-12-08 17:23:41 DEBUG root:29 - Program started
+2020-12-08 17:23:50 DEBUG root:22 - Added item nullto listCamping
+2020-12-08 17:25:05 DEBUG root:29 - Program started
+2020-12-08 17:25:18 DEBUG root:22 - Added item nullto listCamping
+2020-12-08 17:30:04 DEBUG root:29 - Program started
+2020-12-08 17:30:34 DEBUG root:24 - Added item chocoto listCamping
+2020-12-08 17:32:31 DEBUG root:29 - Program started
+2020-12-08 17:32:57 DEBUG root:24 - Added item chonken
+ to listCamping
+2020-12-08 17:33:39 DEBUG root:29 - Program started
+2020-12-08 17:34:03 DEBUG root:24 - Added item chicken to listCamping

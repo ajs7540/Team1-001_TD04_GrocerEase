@@ -9,6 +9,8 @@ import edu.psu.consolemenu.Menu;
 import edu.psu.consolemenu.MenuChoice;
 import edu.psu.consolemenu.MenuDisplay;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -30,9 +32,9 @@ public class EditProducts {
     MenuDisplay menuDisplay = new MenuDisplay(menu);
     while (true) {
       mcEditName.setText("Name: " + Obj.coalesce(product.getName(), "<not set>"));
-      mcEditQuantity.setText("Quantity: " + Obj.coalesce(product.getQuantity(), "<0.0>"));
-      mcEditUOM.setText("UOM: " + Obj.coalesce(product.getUom(), "<not set>"));
-      mcEditPrice.setText("Price: " + Obj.coalesce(product.getPrice(), "<0.00>"));
+      mcEditQuantity.setText("Quantity: " + product.getQuantity());
+      mcEditUOM.setText("UOM: " + product.getUom() );
+      mcEditPrice.setText("Price: " + product.getPrice());
 
       MenuChoice menuChoice = menuDisplay.displayAndChoose();
       if (menuChoice == menu.getMenuChoiceQuit()) {
@@ -46,31 +48,16 @@ public class EditProducts {
         product.setQuantity(IOHelper.userInputDouble("Quantity"));
       }
       if (menuChoice == mcEditUOM) {
-        Scanner choiceInput = new Scanner(System.in);
-        System.out.print("UOM (EA/GAL/LB/BAG/BOX/CARTON) : ");
-        String choice = choiceInput.nextLine();
-        if(choice.equals("EA")){
-          product.setUom(UnitOfMeasure.EA);
+
+        List<String> uomChoices = new ArrayList<String>();
+        for (UnitOfMeasure uom : UnitOfMeasure.values()) {
+          uomChoices.add(uom.toString());
         }
-        else if(choice.equals("GAL")){
-          product.setUom(UnitOfMeasure.GAL);
+
+        String chosenUomString = IOHelper.readValidInputFromList("UOM", uomChoices, false);
+        UnitOfMeasure chosenUom = UnitOfMeasure.valueOf(chosenUomString);
+        product.setUom(chosenUom);
         }
-        else if(choice.equals("LB")){
-          product.setUom(UnitOfMeasure.LB);
-        }
-        else if(choice.equals("BAG")){
-          product.setUom(UnitOfMeasure.BAG);
-        }
-        else if(choice.equals("BOX")){
-          product.setUom(UnitOfMeasure.BOX);
-        }
-        else if(choice.equals("CARTON")){
-          product.setUom(UnitOfMeasure.CARTON);
-        }
-        else{
-          System.out.println("Enter a valid value!");
-        }
-      }
       if (menuChoice == mcEditPrice) {
         product.setPrice(IOHelper.userInputDouble("Price"));
       }

@@ -19,21 +19,13 @@ public class AddProducts {
     boolean productAdded = true;
     while (productAdded) {
       Product product = new Product();
-      logger.log(Level.DEBUG, "Added item " + product.getName() + "to list" + shoppingList.getName());
       EditProducts.editOneProduct(product);
       shoppingList.addProduct(product);
-      if (IOHelper.readYNBool("Another Product?")){ }
-      else{
-        productAdded = false;
-      }
+      logger.log(Level.DEBUG, "Added item " + product.getName() + " to list" + shoppingList.getName());
+      productAdded = IOHelper.readYNBool("Another Product?");
 
 
 
-      //THIS METHOD IS INCOMPLETE
-
-      /*
-       * Repeatedly have the user add new products until they're done
-       */
 
     }
   }
