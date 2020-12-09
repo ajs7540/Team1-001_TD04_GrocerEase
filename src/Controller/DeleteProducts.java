@@ -10,16 +10,15 @@ public class DeleteProducts {
   // Aaron Coccagna | email: azc5793@psu.edu | Github : newpolygons
   private static final Logger logger = LogManager.getRootLogger();
 
-
   public static void deleteProducts(ShoppingList shoppingList) {
     while (true) {
       Product product = ChooseProduct.chooseProduct(shoppingList, p -> p.getName());
-      logger.debug(String.format("Deleted item '%s' from list '%s'", product.getName(), shoppingList.getName()));
+
       if (product == null) {
         break;
       }
       shoppingList.removeProduct(product);
-
+      logger.debug(String.format("Deleted item '%s' from list '%s'", product.getName(), shoppingList.getName()));
     }
   }
 }

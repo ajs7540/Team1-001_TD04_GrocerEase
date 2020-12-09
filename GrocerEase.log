@@ -115,3 +115,18 @@
  to listCamping
 2020-12-08 17:33:39 DEBUG root:29 - Program started
 2020-12-08 17:34:03 DEBUG root:24 - Added item chicken to listCamping
+2020-12-09 17:36:08 DEBUG root:29 - Program started
+2020-12-09 17:38:16 DEBUG root:24 - Added item Boiled Chicken to listHome
+2020-12-09 17:39:30 DEBUG root:24 - Added item A to listHome
+2020-12-09 17:39:57 DEBUG root:24 - Added item B to listHome
+2020-12-09 17:45:10 DEBUG root:29 - Program started
+2020-12-09 17:46:09 DEBUG root:24 - Added item Eggs to listHone
+2020-12-09 17:46:41 DEBUG root:24 - Added item Cashews to listHone
+2020-12-09 17:53:59 DEBUG root:29 - Program started
+2020-12-09 17:54:11 DEBUG root:24 - Added item null to list6
+2020-12-09 17:54:38 DEBUG root:29 - Program started
+2020-12-09 17:55:12 DEBUG root:17 - Deleted item 'Milk' from list 'Camping'
+2020-12-09 18:00:26 DEBUG root:29 - Program started
+2020-12-09 18:00:49 DEBUG root:22 - Deleted item 'Cheese' from list 'Thanksgiving'
+2020-12-09 18:05:01 DEBUG root:29 - Program started
+2020-12-09 18:11:49 DEBUG root:29 - Program started

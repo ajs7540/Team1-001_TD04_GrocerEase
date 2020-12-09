@@ -31,7 +31,7 @@ public class EditProducts {
 
     MenuDisplay menuDisplay = new MenuDisplay(menu);
     while (true) {
-      mcEditName.setText("Name: " + Obj.coalesce(product.getName(), "<not set>"));
+      mcEditName.setText("Name: " + Obj.coalesce(product.getName()));
       mcEditQuantity.setText("Quantity: " + product.getQuantity());
       mcEditUOM.setText("UOM: " + product.getUom() );
       mcEditPrice.setText("Price: " + product.getPrice());
